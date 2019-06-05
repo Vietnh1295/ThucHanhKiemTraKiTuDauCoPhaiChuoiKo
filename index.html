@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function KiemTraChuoi(str) {
+        var test=/^[A-Z]/;
+        if(test.test(str))
+        {
+            return 'Kí tự đầu là kí tự viết hoa';
+        }
+        else
+            {
+                return  'Kí tự đầu không viết hoa';
+            }
+    }
+    alert(KiemTraChuoi('Nguyen van Nam'));
+    alert(KiemTraChuoi('NGUYEN VAN NAM'));
+    alert(KiemTraChuoi('nguyen van Nam'));
+</script>
+</body>
+</html>
